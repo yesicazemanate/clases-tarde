@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <form name="miFormulario" id="form1" action="">
+        
+
+            <legend>
+                MIS DATOS PERSONALES
+            </legend>
+        <label for="user
+        name">nombre de usuario</label>
+        <input type="text" name="username" id="username" placeholder="mi nombre" required><br><br>
+        <label for="password">contraseña
+        <input type="password" name="password" id="password" required></label><br><br>
+        <label for="myemail">Email
+            <input type="email" name="email" id="myemail">
+        </label><br><br>
+        <label for="mydate">fecha de nacimiento
+            <input type="date" name="date" id="mydate"
+            value="2008-11-19" min="1999-12-04" max="2023-12-31"
+            required pattern="\d{4}-\d{2}-\d{2}">
+        </label>
+        <br><br>
+        <label for="">estudio en: 
+            <select name="cuidad" id="cuidad">
+                <option value="" disabled> selecciona</option>
+            <option value="popayan">popayan</option>
+            <option value="pasto" selected>pasto</option>
+            <option value="medellin">medellin</option>
+
+</select>
+
+        </label><br><br>
+        <select name="" id="">
+<optgroup label="1.requerimientos">
+<option value="sprints">sprints1.1</option>
+</optgroup>
+<optgroup label="2. base de datos">
+<option value="mRelacional">modelo relacional 2.1</option>
+<option value="mRelacional">modelo relacional 2.2</option>
+<optgroup label="3.fron-end">
+    <option value="html">html</option>
+    <option value="css">Css</option>
+</optgroup>
+
+</optgroup>
+        </select>
+        <br><br>
+        <label for="">Edad</label>
+        <input type="number" min="0" max="100" step="10z" name="edad" id="edad"><br><br>
+        <label for="Phone">Phone</label>
+        <input type="tel" name="telefono" id="Phone">
+        </fieldset>
+        <fieldset>
+            <legend>
+        DATOS SECUNDARIOS
+            </legend>
+            <label for="">ESTUDIAS:</label><br>
+            <input type="radio" name="nivel" id="front">
+            <label for="">frontEnd</label><br>
+            <input type="radio" name="nivel" id="back">
+            <label for="">Backend</label><br>
+            <input type="radio" name="nivel" id="bas">
+            <label for="">BaseDatos</label><br>
+            <input type="radio" name="nivel" id="reque">
+            <label for="">Requerimientos</label><br>
+            <br>
+            <label for="">Me encanta programar en: </label><br><br>
+            <input type="checkbox" name="lenguaje" id="js">
+            <label for="">Javascript</label><br>
+            <input type="checkbox" name="lenguaje" id="php">
+            <label for="">PHP</label><br>
+            <input type="checkbox" name ="lenguaje" id="phyton">
+            <label for="">Phyton</label><br>
+            <input type="checkbox" name="lenguaje" id="java">
+            <label for="">Java</label><br>
+            <input type="checkbox" name="lenguaje" id="c++">
+            <label for="">C++</label>
+            <br>
+            <label for="">me encanta el color:</label><br>
+            <input type="color" value="#2A13A0" name="color" id="color"><br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="coloca tus comentarios aquí" style="resize:none"></textarea>
+            
+        </fieldset>
+        <label for="">En que navegador prefieres trabajar</label>
+        <input list="Navegador" id="miNavegador" name="myNavegador">
+        <datalist id="Navegador">
+        <option value="chorme"></option> <br>
+        <option value="safari"></option>   <br>
+        <option value="firefox"></option><br>
+        <option value="opera"></option><br>
+        <option value="microsoft edge"></option>
+        </datalist><br>
+        <label for="miHora" id="hora">digita una hora</label>
+        <input   type="time" list="popularHours">
+        <datalist id="popularHours" >
+            <option value="12:00"></option>
+            <option value="13:00"></option>
+            <option value="14:00"></option>
+        </datalist><br>
+        <label for="">Preferiencia</label>
+        <input type="range" min="5" max="10" step="0.01" style="height: 50px; width: 150px;"><br>
+        <label for="" id="colors"> escoje un color(rojo predeterminado)</label>
+        <input type="color" value="#9d776d" list="colores">
+        <datalist id="colores">
+            <option value="#ec5353"></option>
+            <option value="#e61919"></option>
+            <option value="#ff0000"></option>
+            <option value="#b81414"></option>
+            
+        </datalist>
+        <br>
+        <label for="miimagen">origen de la imagen</label>
+        <input type="file" id="miimagen" name="nameimagen" accept=".jpg, .png, .jpeg" multiple><br>
+        <input type="submit" name="enviar" id="enviar" value="aceptar">
+        <input type="reset" value="borrar">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(237, 162, 162);
+}
+
+h1 {
+    color: white;
+    padding: 60px;
+}
+
+p {
+    color: white;
+}
+.section-inicial{
+    color:hsla(0,50%,50%,0.9);
+    background-color: rgb(250, 130, 232);
+    background-image:  url(imagenes/bt21.jpg ) ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+   
+}

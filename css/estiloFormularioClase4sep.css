@@ -1,0 +1,61 @@
+/*.fieldset{
+background-color:antiquewhite;
+border-radius: 10px;
+font-size: medium ;
+}
+.fieldset legend{
+    font-size:50px;
+}
+.fieldset input{
+    border-radius: 8px;
+}
+.fieldset label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 30%;
+    padding: 20px;
+    
+}
+.borrar{
+    background-color: crimson;
+    border-radius: 20px;
+box-shadow: 2px 2px rgb(198, 193, 193);
+}
+.enviar{
+    background-color: green;
+    border-radius: 20px;
+    box-shadow: 2px 2px rgb(198, 193, 193);
+}*/
+.tabla{
+    background-color: rgb(200, 157, 200);
+    height: 300px;
+    padding: 60px;
+    
+}
+.imagen{
+    opacity: 0.3;
+    
+}
+.imagen{
+    width: 190px;
+        margin: 30px;
+}
+.imagen:hover{
+    opacity: 1;
+}
+div.tabla{
+    background: url(../imagenes/rj.jpg) ;
+    border: 2px solid black;
+}
+div.transbox{
+    margin: 30px;
+    background-color: deepskyblue ;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+div.transbox p{
+    margin :5%;
+    font-weight: bold;
+    color: #000000;
+}
