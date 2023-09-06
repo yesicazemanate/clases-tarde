@@ -1,65 +1,66 @@
-
-section{
-    display: inline-flex;
-    background-color:rgb(212, 166, 228) ;
-    width: 100%;
+*{
+    border-radius: 20px;
 }
-footer img{
-    width: 30px;
-
+.article{
+display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(4,auto) ;
+    grid-template-areas: "header header header"
+    "nav nav nav"
+    "section section section" 
+    "footer footer footer";
+    background-color: aliceblue;
+    gap: 10px;
 }
-header{
+.header {
     background-color: bisque;
-  display:flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
+    grid-area: header;
 
 }
+.nav {
+    
+    background-color: beige;
+    grid-area: nav;
+    display: flex;
+    justify-content: end;
+}
+.section {
+  grid-area: section;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 500px;
+}
+.footer {
+  background-color: bisque;
+grid-area: footer;
+}
+
 .imagen1{
     width: 300px;
     align-items: center;
 }
-.izquierda  p{
-    background-color: rgb(212, 166, 228);
-    padding: 10px;
-    width: 30%;
+.izquierda  {
+    background: url("../imagenes/Shooky.jpg");
+width: 30%;
 font-family:'Times New Roman', Times, serif;
 font-size: larger;
-}
-.imagen2{
-    padding: 10px;
-width: 200px;
-}
-.centro {
-
-display: flex;
-justify-content: center;
 
 }
-video{
-    padding-left:500px;
-width: 300px;
-align-items: center;
-}
-.derecha h2 {
-
-    padding: 70px;
-display: flex;
+.centro{
+    background-color: bisque;
+    width: 900px;
+    display: flex;
     justify-content: center;
+
 }
-.gif{
-    margin-left: 150px;
-    align-items: center;
-    width: 300px;
-    height: 300px;
+.derecha{
+    background-color: bisque;
+    width: 350px;
+    padding-left: 40px;
 }
 .letreros{
-    display:flex;
-    align-items: center;
-}
-footer{
-    margin: 100px;
-}
-nav{
-    padding-left: 80%;
-    background-color: beige;
+    display: inline-flex;
 }
