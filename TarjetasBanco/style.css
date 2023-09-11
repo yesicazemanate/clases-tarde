@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Imbue:opsz,wght@10..100,100&family=Noto+Serif:wght@200&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+.section{
+    height: 400px;
+    background-color: rgb(238, 98, 47);
+    padding: 20px;
+
+}
+.div1{
+   
+    height: 370px;
+    background-color: rgb(215, 210, 210);
+padding: 10px ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.divHijo1{
+    background: url(../imagenes/FondoTarjeta.jpg);
+    border-radius: 20px;
+    border: 1px solid rgb(6, 6, 6);
+    height: 300px;
+    width: 555px;
+    margin: 10px;
+ 
+   
+}
+.barraNegra{
+    background-color: black;
+    height: 35px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+.texto1{
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin: 4px;
+}
+.barraBlanca{
+    background:url(../imagenes/rayado.png);
+        height: 35px;
+        width: 98%;
+        margin-left: 5px;
+       
+       
+}
+.divHijo2{
+        background: url(../imagenes/FondoTarjeta.jpg);
+            border-radius: 20px;
+            border: 1px solid rgb(6, 6, 6);
+            height: 300px;
+            width: 555px;
+            margin: 10px;
+}
+.texto2{
+    color: white;
+        font-size: small;
+        text-align: center;
+        margin-top: 4px;
+}.aside {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 0PX;
+}
+.numeros{
+transform: scaleX(-1);
+    margin-top: 0px;
+    margin-left: 10px;
+        font-family: 'Imbue', serif;
+        font-size: 60px;
+        text-align: center;
+    }

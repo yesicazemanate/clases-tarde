@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Italic.ttf");
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+.miParrafo{
+font-family: 'Playfair Display', serif;
+letter-spacing: 1px;
+}
+.miParrafo2{
+font-family: 'Playfair Display', serif;
+text-align: center;
+    text-decoration:double;
+}
+.miParrafo3{
+    font-family: "Roboto";
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  word-spacing: 7px;
+  text-indent: 40px;
+  direction:initial;
+  text-align: center;
+  text-decoration:underline;
+}
+
