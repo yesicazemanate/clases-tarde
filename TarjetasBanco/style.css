@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Imbue:opsz,wght@10..100,100&family=Noto+Serif:wght@200&family=Playfair+Display&family=Roboto:wght@100&display=swap');
-.section{
-    height: 400px;
+.section {
     background-color: rgb(238, 98, 47);
-    padding: 20px;
-
+    padding: 30px;
+overflow: hidden;
+width: 100%;
 }
 .div1{
    
@@ -13,6 +13,17 @@ padding: 10px ;
 display: flex;
 justify-content: center;
 align-items: center;
+float: left;
+}
+.div2{
+        height: 370px;
+        background-color: rgb(215, 210, 210);
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   float: right;
+
 }
 .divHijo1{
     background: url(../imagenes/FondoTarjeta.jpg);
