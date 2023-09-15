@@ -1,36 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Imbue:opsz,wght@10..100,100&family=Noto+Serif:wght@200&family=Playfair+Display&family=Roboto:wght@100&display=swap');
 .section {
     background-color: rgb(238, 98, 47);
-    padding: 30px;
-overflow: hidden;
-width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+  padding: 30px;
+  max-width: max-content;
+
 }
 .div1{
-   
+display: inline-block;
+max-width: max-content;
     height: 370px;
     background-color: rgb(215, 210, 210);
 padding: 10px ;
-display: flex;
-justify-content: center;
-align-items: center;
-float: left;
 }
 .div2{
+    display: inline-block;
         height: 370px;
         background-color: rgb(215, 210, 210);
     padding: 10px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   float: right;
-
+    max-width: max-content;
 }
 .divHijo1{
     background: url(../imagenes/FondoTarjeta.jpg);
     border-radius: 20px;
     border: 1px solid rgb(6, 6, 6);
     height: 300px;
-    width: 555px;
+    width: 450px;
     margin: 10px;
  
    
@@ -60,7 +56,7 @@ float: left;
             border-radius: 20px;
             border: 1px solid rgb(6, 6, 6);
             height: 300px;
-            width: 555px;
+            width: 450px;
             margin: 10px;
 }
 .texto2{
@@ -82,3 +78,8 @@ transform: scaleX(-1);
         font-size: 60px;
         text-align: center;
     }
+@media (width < 1000px){
+    .section{
+   max-width: 500px;
+    }
+}
