@@ -22,11 +22,12 @@ padding: 10px ;
     max-width: max-content;
 }
 .divHijo1{
-    background: url(../imagenes/FondoTarjeta.jpg);
+    background: url(../imagenes/fondo2.jpg);
+    background-size: cover;
     border-radius: 20px;
     border: 1px solid rgb(6, 6, 6);
     height: 300px;
-    width: 450px;
+    width: 550px;
     margin: 10px;
  
    
@@ -52,11 +53,11 @@ padding: 10px ;
        
 }
 .divHijo2{
-        background: url(../imagenes/FondoTarjeta.jpg);
+        background: url(../imagenes/fondo2.jpg);
             border-radius: 20px;
             border: 1px solid rgb(6, 6, 6);
             height: 300px;
-            width: 450px;
+            width: 550px;
             margin: 10px;
 }
 .texto2{
@@ -78,8 +79,62 @@ transform: scaleX(-1);
         font-size: 60px;
         text-align: center;
     }
+    .logo{
+        width: 50px;
+        margin-top: -50px;
+      
+    }
+    .texto3{
+        color: white;
+            font-size:larger;
+            margin-top: -40px;
+            margin-left: 50px;
+          font-weight: 900;
+    }
+.texto4{
+    transform: scaleX(-1);
+        margin-top: -45px;
+        font-family: 'Imbue', serif;
+        font-size: 30px;
+        text-align: center;
+}
+.texto5{
+    width: 180px;
+margin-top: -110px;
+    margin-left:380px;
+        color: white;
+        font-size: smaller;
+}
+.texto6{
+    margin-top: 35px;
+   margin-left: 8px;
+        color: white;
+}
+.texto7{
+transform: scaleX(-1);
+    margin-top: -60px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-right: 50px;
+}
+.logo2{
+    width: 50px;
+     margin-left: 330px;
+}
+.texto8{
+        color: white;
+            font-size: larger;
+            margin-top: -40px;
+            margin-left: 390px;
+            font-weight: 900;
+            width: 300px;
+}
+.imagen4{
+    width: 70px;
+    border-radius: 12px;
+}
 @media (width < 1000px){
     .section{
-   max-width: 500px;
+   max-width: 600px;
     }
 }

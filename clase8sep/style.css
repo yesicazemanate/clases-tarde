@@ -1,0 +1,27 @@
+/*.contenedor{
+    display: flex;
+    height: 400px;
+    flex-direction:row;
+    flex-wrap: wrap-reverse;
+    row-gap: 2px;
+    column-gap: 7px;
+    gap: 2px 7px;
+
+    justify-content:space-around;
+    align-items:center;
+
+}
+.cajaHija{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-weight: bold;
+    border: 5px solid red;
+}*/
+[href="C:\Users\Admin\Desktop\GENERAR HÁBITOS SALUDABLES DE VIDA MEDIANTE LA APLICACIÓN DE PROGRAMAS DE.docx"]{
+    color: aqua;
+}
+[yesz~="trabajo"]{
+    background-color: blueviolet;
+}
