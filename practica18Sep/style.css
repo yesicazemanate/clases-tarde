@@ -1,0 +1,129 @@
+.contePrincipal{
+border: 1px solid black;
+}
+.dado{
+
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+.dados{ background-color: rgb(248, 200, 232);
+border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    gap:68px ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 30px;
+}
+.punto{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+border-radius: 10px ;
+margin: 20px;
+}
+.punto5{
+    transform: translatey(-190px);
+}
+.dado5 {
+  align-items: center;
+}
+.dado6 {
+  flex-direction: column;
+}
+.punto6{
+    margin: 0px;
+}
+.trikki {
+margin: 10px;
+}
+.c{
+border-right: 1px solid black;
+padding: 10px 30px;
+}
+.a{
+    border-bottom: 1px solid black;
+    padding: 30px;
+    border-right: 1px solid black;
+}.b{
+    border-top: 1px solid black;
+    padding: 30px;
+    border-right: 1px solid black;
+}
+.d{ 
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 21px;
+    box-sizing: border-box;
+    
+}
+.e{
+    border-left: 1px solid black;
+        padding: 10px 30px;
+}
+.f{
+    border-top: 1px solid black;
+        padding: 30px;
+        border-left: 1px solid black;
+}
+.trikki1 p{
+    font-size: larger;
+    color: red;
+    text-align: center;
+   
+}
+.trikki1{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom:10px ;
+}
+.ladoizquierdo1{
+    display:block;
+width: 50px;
+margin-right: 20px;
+}
+.ladoderecho1{
+            display:block;
+            width: 80px;
+            margin-left: 20px;
+}
+.trikki2{
+    display: flex ;                                                                                                                                                     ;
+    width: 400px;
+ margin-bottom: 10px;
+       
+}
+.ladoarriba{
+    display: flex;
+    flex-wrap: wrap;
+        width: 50px;
+        margin-right: 20px;
+        flex-direction: row;
+}
+.a2{
+    display: block;
+    border-bottom: 1px solid black;
+        padding: 30px;
+        border-right: 1px solid black;
+}
+.c2{
+    display: block;
+border-right: 1px solid black;
+    padding: 10px 30px;
+}
+.b2{
+    display: block;
+    border-top: 1px solid black;
+        padding: 30px;
+        border-right: 1px solid black;
+}

@@ -132,6 +132,43 @@ transform: scaleX(-1);
 .imagen4{
     width: 70px;
     border-radius: 12px;
+    margin-left: 40px;
+}
+.numer{
+        margin-top: 0px;
+            margin-left: 10px;
+            font-family: 'Imbue', serif;
+            font-size: 60px;
+            text-align: center;
+}
+.texto9{
+    margin-left: 110px;
+    margin-top: -75px;
+
+}
+.texto11{
+    margin-left: 225px;
+        margin-top: -25px;
+}
+.texto10{
+margin-left: 260px;
+    margin-top: -15px;
+font-family: 'Imbue', serif;
+    font-size: 30px;
+}
+.texto12{
+    margin-left: 170px;
+        margin-top: -65px;
+        font-size: 15px;
+}
+.texto13{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+}
+.nombre{
+    text-align: center;
+    font-size: larger;
 }
 @media (width < 1000px){
     .section{
