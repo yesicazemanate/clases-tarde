@@ -1,0 +1,43 @@
+div{
+    border: 2px dotted ;
+    height: 300px;
+    padding: 20px;
+    width: 890px;
+    margin-left: 400px;
+
+}
+.tabla{
+    text-align: center;
+    color: rgb(23, 23, 199);
+    position: absolute;
+    top: 40px;
+width: 890px;
+height: 180px;
+    border: 5px dotted black;
+border-radius: 7rem /220% ;
+    height: 300px;
+   
+}
+.columa1{
+   font-size: 30px;
+}
+.columa2 td{
+font-size: 20px;
+border: 1px solid rgb(200, 141, 3);
+}
+
+.columa4 td{
+    background-color: rgb(10, 200, 3);
+        border-radius: 10px;
+        width: 850px;
+}
+.columa5 td {
+    background-color: rgb(10, 200, 3);
+    border-radius: 10px;
+    width: 850px;
+}
+.columa6 td {
+    background-color: rgb(10, 200, 3);
+    border-radius: 10px;
+    width: 850px;
+}

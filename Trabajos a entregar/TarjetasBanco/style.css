@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Imbue:opsz,wght@10..100,100&family=Noto+Serif:wght@200&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+.section {
+    background-color: rgb(238, 98, 47);
+ display: flex;
+ flex-wrap: wrap;
+  padding: 30px;
+  max-width: max-content;
+
+}
+.div1{
+display: inline-block;
+max-width: max-content;
+    height: 370px;
+    background-color: rgb(215, 210, 210);
+padding: 10px ;
+}
+.div2{
+    display: inline-block;
+        height: 370px;
+        background-color: rgb(215, 210, 210);
+    padding: 10px ;
+    max-width: max-content;
+}
+.divHijo1{
+    background: url(../imagenes/fondo2.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 1px solid rgb(6, 6, 6);
+    height: 300px;
+    width: 550px;
+    margin: 10px;
+ 
+   
+}
+.barraNegra{
+    background-color: black;
+    height: 35px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+.texto1{
+    color: white;
+    font-size: small;
+    text-align: center;
+    margin: 4px;
+}
+.barraBlanca{
+    background:url(../imagenes/rayado.png);
+        height: 35px;
+        width: 98%;
+        margin-left: 5px;
+       
+       
+}
+.divHijo2{
+        background: url(../imagenes/fondo2.jpg);
+            border-radius: 20px;
+            border: 1px solid rgb(6, 6, 6);
+            height: 300px;
+            width: 550px;
+            margin: 10px;
+}
+.texto2{
+    color: white;
+        font-size: small;
+        text-align: center;
+        margin-top: 4px;
+}.aside {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 0PX;
+}
+.numeros{
+transform: scaleX(-1);
+    margin-top: 0px;
+    margin-left: 10px;
+        font-family: 'Imbue', serif;
+        font-size: 60px;
+        text-align: center;
+    }
+    .logo{
+        width: 50px;
+        margin-top: -50px;
+      
+    }
+    .texto3{
+        color: white;
+            font-size:larger;
+            margin-top: -40px;
+            margin-left: 50px;
+          font-weight: 900;
+    }
+.texto4{
+    transform: scaleX(-1);
+        margin-top: -45px;
+        font-family: 'Imbue', serif;
+        font-size: 30px;
+        text-align: center;
+}
+.texto5{
+    width: 180px;
+margin-top: -110px;
+    margin-left:380px;
+        color: white;
+        font-size: smaller;
+}
+.texto6{
+    margin-top: 35px;
+   margin-left: 8px;
+        color: white;
+}
+.texto7{
+transform: scaleX(-1);
+    margin-top: -60px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-right: 50px;
+}
+.logo2{
+    width: 50px;
+     margin-left: 330px;
+}
+.texto8{
+        color: white;
+            font-size: larger;
+            margin-top: -40px;
+            margin-left: 390px;
+            font-weight: 900;
+            width: 300px;
+}
+.imagen4{
+    width: 70px;
+    border-radius: 12px;
+    margin-left: 40px;
+}
+.numer{
+        margin-top: 0px;
+            margin-left: 10px;
+            font-family: 'Imbue', serif;
+            font-size: 60px;
+            text-align: center;
+}
+.texto9{
+    margin-left: 110px;
+    margin-top: -75px;
+
+}
+.texto11{
+    margin-left: 225px;
+        margin-top: -25px;
+}
+.texto10{
+margin-left: 260px;
+    margin-top: -15px;
+font-family: 'Imbue', serif;
+    font-size: 30px;
+}
+.texto12{
+    margin-left: 170px;
+        margin-top: -65px;
+        font-size: 15px;
+}
+.texto13{
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
+}
+.nombre{
+    text-align: center;
+    font-size: larger;
+}
+@media (width < 1000px){
+    .section{
+   max-width: 600px;
+    }
+}

@@ -1,0 +1,82 @@
+header{
+    background-color: rgb(18, 197, 152);
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: rgb(167, 138, 194);
+    display: flex;
+    justify-content: space-around;
+}
+a{
+
+    background-color: white;
+    border-radius: 5px;
+    height: 25px;
+    padding: 10px;
+}
+section{
+    background-color: rgb(236, 177, 236);
+    padding: 20px;
+   display: inline-block;
+   width: 70%;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenido{
+    color: rgb(253, 252, 252);
+    background-color: rgb(206, 98, 173);
+    margin-bottom: 10px;
+}
+div{
+    background-color: #50a7ad;
+    display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+img{
+    width: 460px;
+
+}
+.conte{
+
+    background-color: white;
+    padding: 20px;
+}
+aside{
+    height: 550px;
+    margin-left:73%;
+    margin-top: -43.6%;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+background-color: rgb(223, 102, 253);
+padding: 20px;
+justify-content: center;
+align-items: center;
+}
+.imagen{
+    width: 150px;
+}
+.boton{
+    background-color: white;
+}
+.texto{
+    color: antiquewhite;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+.arti{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
