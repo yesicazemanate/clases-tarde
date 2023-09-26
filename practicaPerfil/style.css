@@ -1,0 +1,61 @@
+*{
+    background-color: #d0bfd4;
+    border-radius: 7px;
+    margin: 0%;
+    text-align: center;  
+}
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imagen{
+  
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(199, 241, 243);
+}
+.foto{
+    border: 1px solid;
+    width: max-content;
+    background-color: #ce40db;
+    margin-bottom: 10px;
+}
+.horario{
+    display: flex;
+    flex-wrap: wrap;
+}
+.descripcion{
+
+    border: 2px solid #ddd;
+    width:23em;
+    height: 40px;
+    padding-top: 15px;
+    font-size: 22px;
+    background-color: #e83eff;
+    margin-bottom: 10px;
+}
+
+.c{
+    background-color: #9a5ace;
+    margin: 5px;
+    height: 50px;
+    width: 240px;
+}
+
+@media (width <800px){
+    .horas{
+        display: inline-block;
+    }
+    .descripcion{
+        width: 250px;
+    }
+}

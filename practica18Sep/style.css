@@ -1,8 +1,8 @@
 .contePrincipal{
 border: 1px solid black;
+max-height: max-content;
 }
 .dado{
-
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -23,10 +23,10 @@ border: 1px solid black;
     padding: 30px;
 }
 .punto{
-    background-color: black;
+    background-color: rgb(8, 8, 8);
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border: 1px solid rgb(3, 3, 3);
 border-radius: 10px ;
 margin: 20px;
 }
@@ -42,7 +42,16 @@ margin: 20px;
 .punto6{
     margin: 0px;
 }
+.div{
+    width: 100%;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
 .trikki {
+    min-width: max-content;
+    display: block;
+    min-height: min-content;
 margin: 10px;
 }
 .c{
@@ -77,8 +86,12 @@ padding: 10px 30px;
 .trikki1 p{
     font-size: larger;
     color: red;
-    text-align: center;
-   
+   margin-right: 10px;
+}
+.trikki1 .mediox{
+    color: black;
+    font-size: medium;
+    margin-top: 35px;
 }
 .trikki1{
     width: 400px;
@@ -93,37 +106,126 @@ width: 50px;
 margin-right: 20px;
 }
 .ladoderecho1{
-            display:block;
-            width: 80px;
-            margin-left: 20px;
+display:block;
+width: 80px;
+margin-left: 20px;
 }
 .trikki2{
     display: flex ;                                                                                                                                                     ;
     width: 400px;
  margin-bottom: 10px;
+ flex-direction: column;
        
 }
 .ladoarriba{
     display: flex;
-    flex-wrap: wrap;
+   
         width: 50px;
-        margin-right: 20px;
+        margin-bottom: 0px;
         flex-direction: row;
 }
-.a2{
+.lado{
+    
     display: block;
     border-bottom: 1px solid black;
         padding: 30px;
         border-right: 1px solid black;
 }
 .c2{
-    display: block;
-border-right: 1px solid black;
-    padding: 10px 30px;
+    padding: 10px 15px;  
 }
+
 .b2{
+    border-right:none ;
+}
+.ladoabajo{
+    display: flex;
+    width: 50px;
+    margin-top: 0px;
+    flex-direction: row;
+}
+.lado1{
     display: block;
     border-top: 1px solid black;
         padding: 30px;
-        border-right: 1px solid black;
+        border-right: 1px solid black;   
 }
+.e2{
+    padding: 10px 15px; 
+}
+.f2{
+    border-right:none ;
+    font-size: larger;
+    color: red;
+}
+.trikki2 .medio1{
+    margin-top: 5px;
+  margin-left: 75px;  
+  font-size: larger;
+    color: red;
+} .p1{
+    margin-bottom: 5px;
+    color: black;
+    margin-left: 122px; 
+    margin-top: -40px;
+}
+
+
+.lado2{
+    font-size: larger;
+      color: red;
+
+}.bb{
+    padding-bottom: 50px;
+}.cc{
+    padding-bottom: 18px;
+}
+.dd{
+    padding: 32px;
+}
+
+
+.medio3{
+    margin-top: 85px;
+    margin-left: -18px;
+}
+
+.x{
+    padding: 5px;
+    text-align: center;
+}
+.raya{
+    height: 220px;
+    border: 1px solid rgb(211, 9, 9);
+    transform: rotate(140deg);
+    margin-left: -80px;
+    margin-top: -10px;
+}
+.article1{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+margin-right: 140px;
+width: 100%;
+}
+
+.texto1{
+background-color: blueviolet;
+    border: 2px solid black;
+ margin-bottom: 20px;
+ height: auto;
+}
+.texto2{
+    background-color: blueviolet;
+    width: 40%;
+    height: auto;
+    border: 2px solid black;
+    transform: rotate(90deg);
+border: 2px solid;
+}
+  
+  @media (min-width: 500px) {
+    .article1 {
+      width: 50%;
+    }
+  }
