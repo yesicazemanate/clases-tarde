@@ -1,0 +1,120 @@
+.v{
+    border-top: solid 1px;
+    transform: rotate(90deg);
+}
+.t{
+    border-top: solid 1px;
+    transform: rotate(0deg); 
+}
+.tabla{
+    display: flex;
+}
+
+.texto1{
+    rotate: 90deg;
+    margin: 5px;
+}
+.texto2{
+    rotate: 90deg;
+    margin: 0px;  
+}
+.texto3{
+    rotate: 90deg;
+    margin: 0px;    
+}.por{
+    transform: translate(38px,100px);
+    position: absolute;
+}
+.d{
+    font-size: small;
+    top: 144px;
+    left: 40px;
+    width: 29.5px;
+    height: 135px; 
+}
+.por2{
+    top: 104px; 
+    left: 41px;
+}
+.c{
+        top: 26px;
+        width: 31px;
+        height: 253px;
+        left: 3px;
+}
+.por1{
+    top: -6px;  
+}
+.e{
+    top: -86px;
+    left: 75.5px;
+    width: 31px;
+    height: 365px;  
+}
+.por3{
+    top: -117px;
+    left: 75.5px; 
+}
+.f{
+    top: 104px;
+    left: 112px;
+    width: 53.5px;
+    height: 175px; 
+}
+.por4{
+    top: 64px;
+    left: 122px;
+}
+.g{
+    top: -41px;
+    left: 171px;
+    width: 54.5px;
+    height: 320px; 
+}
+.por5{
+    top: -81px;
+    left: 181px; 
+}
+.h{
+    top: 59px;
+    left: 231px;
+    width: 54px;
+    height: 220px;  
+}.por6{
+    top: 19px;
+    left: 245px;
+}
+.lado{
+    transform: translate(38px,100px);
+    position: absolute;
+    text-align: center;
+    border: 1px solid black;
+}
+.raya1{
+    border-bottom:1px solid black ;
+}
+.raya2{
+    border-top: 1px solid black;
+}
+.raya3{
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+.raya4{
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+}
+.fonfo{
+    height: 72px;
+    background-color: rgb(158, 247, 242);
+}
+.tabla2 td{
+    border: 1px solid black;
+    
+}
+.tabla2{
+    transform: translate(38px,100px);
+    position: absolute; 
+   left: 400px;
+   top: 1px;
+}
